@@ -10,7 +10,6 @@ function App({children}) {
     <div className='center'>
       <GlobalNavigationBar/>
       {children}
-      // Global Footer
     </div>
   )
 }
