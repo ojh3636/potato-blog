@@ -23,7 +23,7 @@ class GlobalNavigationBar extends React.Component {
       <div className='global-navigation-divider'>
         <div className='global-navigation-bar'>
           <div className='title-and-icon'>
-            <p className='icon'>🥔 TEST</p>
+            <p className='icon'>🥔</p>
             <p className='title'>Potato.mk</p>
           </div>
 
