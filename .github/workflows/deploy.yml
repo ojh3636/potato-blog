@@ -21,4 +21,4 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-northeast-2
-      - run: aws s3 sync build s3://potato-blog
+      - run: aws s3 sync build s3://potato-blog-deploy
