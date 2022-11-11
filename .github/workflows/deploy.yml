@@ -22,3 +22,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-northeast-2
       - run: aws s3 sync build s3://potato-blog-deploy
+      - run: aws cloudfront create-invalidation --distribution-id E3BNCYIL8Q7ZR --paths "/*"
